@@ -1,0 +1,25 @@
+{
+    "pages": {
+        "login": "Giriş Yap",
+        "register": "Kayıt Ol"
+    },
+    "button": {
+        "add": "Ekle",
+        "save": "Kaydet"
+    },
+    "landing": {
+    },
+    "login": {
+        "email": "E-mail",
+        "password": "Şifre",
+        "isNotMember": "Üye değil misiniz?",
+        "desc": "Hesabınız ile giriş yapınız"
+    },
+    "register": {
+        "fullName": "Ad Soyad",
+        "phoneNumner": "Telefon numarası",
+        "rePassword": "Yeniden şifre",
+        "desc": "Bütçenizi kaydedebilmek için\n hesap oluşturun",
+        "isMember": "Üye misiniz?"
+    }
+}

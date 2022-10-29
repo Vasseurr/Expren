@@ -1,0 +1,25 @@
+{
+    "pages": {
+        "login": "Login",
+        "register": "Register"
+    },
+    "button": {
+        "add": "Add",
+        "save": "Save"
+    },
+    "landing": {
+    },
+    "login": {
+        "email": "E-mail",
+        "password": "Password",
+        "isNotMember": "Don't have an account",
+        "desc": "Login with your account"
+    },
+    "register": {
+        "fullName": "Full name",
+        "phoneNumner": "Phone number",
+        "rePassword": "Again password",
+        "desc": "Create an account \nto save your budget",
+        "isMember": "Already a member?"
+    }
+}
