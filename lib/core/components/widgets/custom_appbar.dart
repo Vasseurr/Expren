@@ -1,8 +1,8 @@
+import 'package:expren/core/extension/context_extension.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:sizer/sizer.dart';
 
-import '../../constants/colors.dart';
+import '../../constants/app_constants.dart';
 
 class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
   const CustomAppBar({Key? key}) : super(key: key);
@@ -10,22 +10,24 @@ class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      flexibleSpace: Container(
-        decoration: const BoxDecoration(
-            gradient: LinearGradient(
-                begin: Alignment.centerLeft,
-                end: Alignment.centerRight,
-                colors: MyColors.primaryColorList)),
+      leading: IconButton(
+        onPressed: () {},
+        icon: const Icon(Icons.menu),
       ),
-      title: Text(
-        "Get-X starter",
-        style: GoogleFonts.lobster(
-          color: Colors.white,
-          fontWeight: FontWeight.normal,
-          fontSize: 17.sp,
+      elevation: 0,
+      actions: [
+        Container(
+          margin: EdgeInsets.symmetric(horizontal: 8.sp, vertical: 6.sp),
+          decoration: BoxDecoration(
+              color: context.theme.bottomAppBarTheme.color,
+              borderRadius: BorderRadius.circular(AppConstants.lLowRadius)),
+          child: FittedBox(
+            child: IconButton(
+                onPressed: () {},
+                icon: const Icon(Icons.notifications_none_rounded)),
+          ),
         ),
-      ),
-      centerTitle: true,
+      ],
     );
   }
 

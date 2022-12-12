@@ -1,6 +1,9 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:expren/core/constants/app_constants.dart';
 
+import '../../core/constants/duration_constants.dart';
+import '../../core/init/navigation/navigation_route.dart';
+import '../../core/routes/app_routes.dart';
 import '/core/components/buttons/vasseurr_button.dart';
 import '/core/components/widgets/column_with_space.dart';
 import '/core/constants/asset_URL.dart';
@@ -65,7 +68,9 @@ class LandingPage extends StatelessWidget {
         borderColor: Colors.white,
         textColor: Colors.black,
         buttonWidth: context.width * .7,
-        onpressed: () {});
+        onpressed: () => NavigationRoute.instance.toNamed(
+            context, Routes.base.toWidgetPath(), Routes.base,
+            milliseconds: DurationConstants.midDuration));
   }
 
   DefaultTextStyle _appName() {

@@ -6,7 +6,9 @@ class AppConstants {
   static const FONT_FAMILY = "Poppins";
 
   //*Radius
+  static const double lLowRadius = 5.0;
   static const double lowRadius = 10.0;
+  static const double customLMRadius = 25.0;
   static const double midRadius = 30.0;
   static const double highRadius = 50.0;
 

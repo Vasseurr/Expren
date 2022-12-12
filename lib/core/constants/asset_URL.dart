@@ -12,12 +12,22 @@ class AssetURL {
   String get background3 => pathImageValue("background3.jpg");
   String get background4 => pathImageValue("background4.jpg");
   String get background5 => pathImageValue("background5.jpg");
+  String get home => pathImageValue("home.png");
+  String get expense => pathImageValue("expense.png");
+  String get investment => pathImageValue("investment.png");
+  String get budget => pathImageValue("budget.png");
+  String get avatar => pathImageValue("avatar.png");
 
   String pathIconValue(String name) => 'assets/icons/$name';
   String pathImageValue(String name) => 'assets/images/$name';
 }
 
 extension AssetWidget on String {
-  toImageWidget() => Image.asset(this);
+  toImageWidget({double? size, Color? color}) => Image.asset(
+        this,
+        width: size,
+        height: size,
+        color: color,
+      );
   toIconWidget() => Image.asset(this);
 }

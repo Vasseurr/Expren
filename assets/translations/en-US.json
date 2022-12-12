@@ -1,7 +1,12 @@
 {
     "pages": {
         "login": "Login",
-        "register": "Register"
+        "register": "Register",
+        "home": "Home",
+        "expense": "Expense",
+        "investment": "Investment",
+        "budget": "Budget",
+        "schedule": "Schedule"
     },
     "button": {
         "add": "Add",
@@ -21,5 +26,16 @@
         "rePassword": "Again password",
         "desc": "Create an account \nto save your budget",
         "isMember": "Already a member?"
+    },
+    "home": {
+        "hello": "Hello",
+        "wallet": "Wallet",
+        "lastActions": "Last Actions"
+    },
+    "month": {
+        "revenue": "Revenue",
+        "expense": "Expense",
+        "budget": "Budget",
+        "summary": "Summary"
     }
 }

@@ -1,7 +1,12 @@
 {
     "pages": {
         "login": "Giriş Yap",
-        "register": "Kayıt Ol"
+        "register": "Kayıt Ol",
+        "home": "Anasayfa",
+        "expense": "Harcamalar",
+        "investment": "Yatırımlar",
+        "budget": "Bütçe",
+        "schedule": "Takvim"
     },
     "button": {
         "add": "Ekle",
@@ -21,5 +26,16 @@
         "rePassword": "Yeniden şifre",
         "desc": "Bütçenizi kaydedebilmek için\n hesap oluşturun",
         "isMember": "Üye misiniz?"
+    },
+    "home": {
+        "hello": "Merhaba",
+        "wallet": "Cüzdan",
+        "lastActions": "Son Hareketler"
+    },
+    "month": {
+        "revenue": "Gelir",
+        "expense": "Gider",
+        "budget": "Kalan Para",
+        "summary": "Özet"
     }
 }

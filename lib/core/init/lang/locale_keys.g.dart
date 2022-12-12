@@ -3,6 +3,11 @@
 abstract class  LocaleKeys {
   static const pages_login = 'pages.login';
   static const pages_register = 'pages.register';
+  static const pages_home = 'pages.home';
+  static const pages_expense = 'pages.expense';
+  static const pages_investment = 'pages.investment';
+  static const pages_budget = 'pages.budget';
+  static const pages_schedule = 'pages.schedule';
   static const pages = 'pages';
   static const button_add = 'button.add';
   static const button_save = 'button.save';
@@ -19,5 +24,14 @@ abstract class  LocaleKeys {
   static const register_desc = 'register.desc';
   static const register_isMember = 'register.isMember';
   static const register = 'register';
+  static const home_hello = 'home.hello';
+  static const home_wallet = 'home.wallet';
+  static const home_lastActions = 'home.lastActions';
+  static const home = 'home';
+  static const month_revenue = 'month.revenue';
+  static const month_expense = 'month.expense';
+  static const month_budget = 'month.budget';
+  static const month_summary = 'month.summary';
+  static const month = 'month';
 
 }
